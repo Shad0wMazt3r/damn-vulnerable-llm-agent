@@ -34,7 +34,7 @@ def get_transactions(userId : str):
         return transactions
         
     except Exception as e:
-        return f"Error: {e}'"
+        return "Unable to retrieve transactions right now. Please try again later."
             
 
 get_recent_transactions_tool = Tool(
